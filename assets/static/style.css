@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  position: relative;
+  margin: 100px;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #000;
+}
+
+h1 a:hover{
+  text-decoration: none;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.bio{
+  margin-top: 14px;
+  max-width: 500px;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Gentium Book Basic', serif;
+  line-height: 25px;
+}
+
+.links{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Gentium Book Basic', serif;
+  text-align: right;
+}
+
+.links a{
+  display: block;
+}
+
+@media only screen and (max-width : 945px) {
+  body{
+    margin: 30px;
+  }
+
+  .links{
+    margin-top: 18px;
+    position: relative;
+    text-align: left;
+  }
+
+  .links h3{
+    font-family: 'Open Sans', sans-serif;
+  }
+}
